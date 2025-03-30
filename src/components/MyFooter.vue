@@ -4,7 +4,7 @@
                 <div class="footer__contents">
                     <div class="footer__contents--sns">
                         <ul>
-                            <li><a href="https://github.com/nao7009"><img src="../assets/images/github.png"></a></li>
+                            <li><a href="https://github.com/mochimugi09"><img src="../assets/images/github.png"></a></li>
                         </ul>
                     </div>
                     <div class="footer__contents--top">
