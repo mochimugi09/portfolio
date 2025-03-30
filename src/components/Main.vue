@@ -135,7 +135,7 @@
                             </div>
                             <div class="skillText">
                                 <h3>CSS</h3>
-                                <p>自社の勉強会及び独学でWebサイトの構築に必要なスキルを身に付け、現在は実務で経験を積んでいます。<br>デザインに基づき、ピクセルパーフェクトに近付けた実装ができます。<br>また、調べながらであればCSSアニメーションの実装も可能です。<br>VisualStudioCodeをメインで使用しています。</p>
+                                <p>自社の勉強会及び独学でWebサイトの構築に必要なスキルを身に付け、現在は実務で経験を積んでいます。<br>デザインに基づき、ピクセルパーフェクトに近付けた実装ができます。<br>また、レスポンシブ対応・CSSアニメーションも対応可能です。<br>VisualStudioCodeをメインで使用しています。</p>
                             </div>
                         </div>
                         <div class="skillItem">
@@ -201,19 +201,6 @@
                             <div class="skillText">
                                 <h3>Photoshop</h3>
                                 <p>実務で使用しており、基本的な操作が可能です。<br>レイヤーの作成、テキストの編集等が対応可能です。</p>
-                            </div>
-                        </div>
-                        <div class="skillItem">
-                            <div class="skillImage">
-                                <img src="../assets/images/icon_canva.png" alt="canvaの画像"> 
-                                <svg viewBox="0 0 108 108">
-                                    <circle class="base" cx="54" cy="54" r="50"></circle>
-                                    <circle class="line" style=" stroke-dashoffset: calc(314 - (314*70)/100)" cx="54" cy="54" r="50"></circle>
-                                </svg>
-                            </div>
-                            <div class="skillText">
-                                <h3>Canva</h3>
-                                <p>Webデザインのスクールで使い方を学習しました。<br>プライベートでInstagramの投稿に使用した経験があります。<br>バナーのデザイン・Instagramの投稿作成、フォントの加工等が対応可能です。</p>
                             </div>
                         </div>
                         <div class="skillItem">
