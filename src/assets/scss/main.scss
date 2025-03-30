@@ -1,0 +1,71 @@
+/*main.scss*/
+
+/******************************
+* 初期設定
+******************************/
+body{
+    color:#060606;
+    font-size: 16px;
+    background-color: $mainColor;
+    font-family: $fontTypePc;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: #060606;
+}
+
+body, header, footer, main, section, p, ul, li{
+    margin: 10px;
+    padding: 10px;
+    @include mq('max','md') {
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+h1,h2,h3{
+    font-family: $fontTypePc;
+    font-style: italic;
+    @include mq('max','sm') {
+       font-family: $fontTypeSm;
+    }
+}
+
+h2{
+    font-size: 40px;
+    @include mq('max','md') {
+        font-size: 30px;
+    }
+    @include mq('max','sm') {
+        font-size: 20px;
+    }
+}
+
+h3{
+    font-size: 30px;
+    @include mq('max','md') {
+        font-size: 20px;
+    }
+}
+
+p{
+    font-family: normal,sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    @include mq('max','md') {
+        font-size: 12px;
+    }
+    @include mq('max','sm') {
+        font-size: 10px;
+    }
+}
+
+ul ,li{
+    font-family: $fontTypePc;
+    font-style: italic;
+    @include mq('max','sm') {
+        font-family: $fontTypeSm;
+     }
+}
