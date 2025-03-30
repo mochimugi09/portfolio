@@ -14,7 +14,7 @@
             <div class="main__profileText">
                 <h3>Nao Shimojo</h3>
                 <p>静岡県出身。<br>大学卒業後、地元の公立こども園で保育士として働く。<br>3年間勤めたのち、結婚を機に退職する。<br>職業訓練校でプログラミングの基礎等を学び、株式会社CRIに入社。</p><p>現在は外ではエンジニア、家では一児の母。<br>思い描いたものを形にすることや、<br>興味があるものを追求することが好き。<br>フロントエンドエンジニアになることを目標に、<br>育児の傍らで日々勉強中。</p>
-            </div> 
+            </div>
         </div>
         <transition>
             <div class="fadeInAfter" :class="{fadeIn:visible}">
@@ -24,10 +24,18 @@
                     </div>
                     <div class="main__carrerItem">
                         <div class="main__carrerItemSummary">
-                            <p>2023.04～ | 産休・育休中</p>
+                            <p>2024.05～現在 | ブランデックス株式会社に入社</p>
                         </div>
                         <div class="main__carrerItemDetail">
-                            <p>第一子妊娠・出産に伴い、休暇取得中です。<br>復帰後もスキルアップできるよう、育児の合間を縫って勉強中です。</p>
+                            <p>某アパレルサイトのLPコーディングや更新作業、ディレクション業務等を担当しています。<br>サイトの改修なども担当し始め、育児と両立しながら日々仕事に励んでいます。</p>
+                        </div>
+                    </div>
+                    <div class="main__carrerItem">
+                        <div class="main__carrerItemSummary">
+                            <p>2023.04～2024.4 | 産休・育休</p>
+                        </div>
+                        <div class="main__carrerItemDetail">
+                            <p>第一子妊娠・出産に伴い、休暇を取得しました。<br>復帰後もスキルアップできるよう、育児の合間を縫って<br>資格取得やデザイン・コーデイングの勉強に励みました。</p>
                         </div>
                     </div>
                     <div class="main__carrerItem">
@@ -114,7 +122,7 @@
                             </div>
                             <div class="skillText">
                                 <h3>HTML</h3>
-                                <p>自社の勉強会及び独学でWebサイトの構築に必要なスキルを身につけました。<br>デザインに沿った静的ページのコーディングができます。<br>VisualStudioCodeをメインで使用しています。</p>
+                                <p>自社の勉強会及び独学でWebサイトの構築に必要なスキルを身に付け、現在は実務で経験を積んでいます。<br>デザインに沿った静的ページのコーディングができます。<br>VisualStudioCodeをメインで使用しています。</p>
                             </div>
                         </div>
                         <div class="skillItem">
@@ -122,25 +130,90 @@
                                 <img src="../assets/images/icon_css.png" alt="CSSの画像"> 
                                 <svg viewBox="0 0 108 108">
                                     <circle class="base" cx="54" cy="54" r="50"></circle>
-                                    <circle class="line" style=" stroke-dashoffset: calc(314 - (314*80)/100)" cx="54" cy="54" r="50"></circle>
+                                    <circle class="line" style=" stroke-dashoffset: calc(314 - (314*90)/100)" cx="54" cy="54" r="50"></circle>
                                 </svg>
                             </div>
                             <div class="skillText">
                                 <h3>CSS</h3>
-                                <p>自社の勉強会及び独学でWebサイトの構築に必要なスキルを身につけました。<br>デザインに基づいた実装ができます。<br>また、調べながらであればCSSアニメーションの実装も可能です。<br>VisualStudioCodeをメインで使用しています。</p>
+                                <p>自社の勉強会及び独学でWebサイトの構築に必要なスキルを身に付け、現在は実務で経験を積んでいます。<br>デザインに基づき、ピクセルパーフェクトに近付けた実装ができます。<br>また、調べながらであればCSSアニメーションの実装も可能です。<br>VisualStudioCodeをメインで使用しています。</p>
                             </div>
                         </div>
                         <div class="skillItem">
                             <div class="skillImage">
-                                <img src="../assets/images/icon_js.png" alt="vueの画像"> 
+                                <img src="../assets/images/icon_js.png" alt="javascriptの画像"> 
+                                <svg viewBox="0 0 108 108">
+                                    <circle class="base" cx="54" cy="54" r="50"></circle>
+                                    <circle class="line" style=" stroke-dashoffset: calc(314 - (314*90)/100)" cx="54" cy="54" r="50"></circle>
+                                </svg>
+                            </div>
+                            <div class="skillText">
+                                <h3>javascript</h3>
+                                <p>自社の勉強会及び独学で静的ページに簡単な動きを付けるスキルを身に付け、現在は実務で経験を積んでいます。<br>フェード等の簡易なアニメーションからgsapやripples等を使用した動きも実装可能です。<br>VisualStudioCodeをメインで使用しています。</p>
+                            </div>
+                        </div>
+                        <div class="skillItem">
+                            <div class="skillImage">
+                                <img src="../assets/images/icon_figma.png" alt="figmaの画像"> 
                                 <svg viewBox="0 0 108 108">
                                     <circle class="base" cx="54" cy="54" r="50"></circle>
                                     <circle class="line" style=" stroke-dashoffset: calc(314 - (314*70)/100)" cx="54" cy="54" r="50"></circle>
                                 </svg>
                             </div>
                             <div class="skillText">
-                                <h3>javascript</h3>
-                                <p>自社の勉強会及び独学で静的ページに簡単な動きを付けるスキルを身につけました。<br>メソッド等を利用し、ボタン操作や文字の色を変えるなどの動きを付けることができます。<br>VisualStudioCodeをメインで使用しています。</p>
+                                <h3>figma</h3>
+                                <p>Webデザインのスクールで使い方を学習し、課題でLPのデザインを作成しました。<br>実務でも使用しています。<br>LP・Webサイト・バナーのデザイン作成、プラグインの設定等が対応可能です。</p>
+                            </div>
+                        </div>
+                        <div class="skillItem">
+                            <div class="skillImage">
+                                <img src="../assets/images/icon_canva.png" alt="canvaの画像"> 
+                                <svg viewBox="0 0 108 108">
+                                    <circle class="base" cx="54" cy="54" r="50"></circle>
+                                    <circle class="line" style=" stroke-dashoffset: calc(314 - (314*70)/100)" cx="54" cy="54" r="50"></circle>
+                                </svg>
+                            </div>
+                            <div class="skillText">
+                                <h3>Canva</h3>
+                                <p>Webデザインのスクールで使い方を学習しました。<br>プライベートでInstagramの投稿に使用した経験があります。<br>バナーのデザイン・Instagramの投稿作成、フォントの加工等が対応可能です。</p>
+                            </div>
+                        </div>
+                        <div class="skillItem">
+                            <div class="skillImage">
+                                <img src="../assets/images/icon_illustrator.png" alt="illustratorの画像"> 
+                                <svg viewBox="0 0 108 108">
+                                    <circle class="base" cx="54" cy="54" r="50"></circle>
+                                    <circle class="line" style=" stroke-dashoffset: calc(314 - (314*70)/100)" cx="54" cy="54" r="50"></circle>
+                                </svg>
+                            </div>
+                            <div class="skillText">
+                                <h3>Illustrator</h3>
+                                <p>Webデザインのスクールで使い方を学習しました。<br>現在は実務でも使用しており、基本的な操作が可能です。</p>
+                            </div>
+                        </div>
+                        <div class="skillItem">
+                            <div class="skillImage">
+                                <img src="../assets/images/icon_photoshop.png" alt="photoshopの画像"> 
+                                <svg viewBox="0 0 108 108">
+                                    <circle class="base" cx="54" cy="54" r="50"></circle>
+                                    <circle class="line" style=" stroke-dashoffset: calc(314 - (314*70)/100)" cx="54" cy="54" r="50"></circle>
+                                </svg>
+                            </div>
+                            <div class="skillText">
+                                <h3>Photoshop</h3>
+                                <p>実務で使用しており、基本的な操作が可能です。<br>レイヤーの作成、テキストの編集等が対応可能です。</p>
+                            </div>
+                        </div>
+                        <div class="skillItem">
+                            <div class="skillImage">
+                                <img src="../assets/images/icon_canva.png" alt="canvaの画像"> 
+                                <svg viewBox="0 0 108 108">
+                                    <circle class="base" cx="54" cy="54" r="50"></circle>
+                                    <circle class="line" style=" stroke-dashoffset: calc(314 - (314*70)/100)" cx="54" cy="54" r="50"></circle>
+                                </svg>
+                            </div>
+                            <div class="skillText">
+                                <h3>Canva</h3>
+                                <p>Webデザインのスクールで使い方を学習しました。<br>プライベートでInstagramの投稿に使用した経験があります。<br>バナーのデザイン・Instagramの投稿作成、フォントの加工等が対応可能です。</p>
                             </div>
                         </div>
                         <div class="skillItem">
@@ -158,7 +231,7 @@
                         </div>
                         <div class="skillItem">
                             <div class="skillImage">
-                                <img src="../assets/images/icon_nuxt.png" alt="vueの画像"> 
+                                <img src="../assets/images/icon_nuxt.png" alt="Nuxtの画像"> 
                                 <svg viewBox="0 0 108 108">
                                     <circle class="base" cx="54" cy="54" r="50"></circle>
                                     <circle class="line" style=" stroke-dashoffset: calc(314 - (314*40)/100)" cx="54" cy="54" r="50"></circle>
@@ -205,7 +278,7 @@
                             </div>
                             <div class="skillText">
                                 <h3>Wordpress</h3>
-                                <p>自社の勉強会で学習し、業務で使用しました。<br>インストール及び初期設定、既存のページに追加するページ作成</p>
+                                <p>自社の勉強会で学習し、業務で使用しました。<br>インストール及び初期設定、既存のページに追加するページ作成、プラグインを用いたフォーム作成ができます。</p>
                             </div>
                         </div>
                         <div class="skillItem">
@@ -289,78 +362,7 @@
                     </div>
                 </div>
             </div>
-        </transition>  
-        <!-- <transition>
-            <div class="fadeInAfter" :class="{fadeIn:visible2}">
-                <div class="main__skills">
-                    <div class="main__title">
-                        <h3>Skills</h3>
-                    </div>
-                    <div class="main__skillsList--accordion">
-                        <AccordionMenu>
-                            <div slot="title">HTML/CSS</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>デザインに沿った静的ページのコーディング<br>CSSアニメーション（調べながらであれば可）</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">JavaScript</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>メソッド等を利用した動的ページの作成<br>Vue.jsを用いたコーディング</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">WordPress、PHP</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>インストールおよび初期設定<br>既存のページに追加するページ作成</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">Java、Servlet/jsp</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>データベースを用いた簡易なアプリケーションの作成<br>設計図を見ながらのコーディング</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">My SQL</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>コードの内容理解<br>データベース作成（調べながらであれば可）</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">Teraterm</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>サーバへ接続・コマンド操作によるサーバの設定変更</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">Word</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>書類作成（画像や表の挿入などは可）</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">Excel</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>資料作成（計算・関数の挿入、グラフやチャートの挿入などは可）</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">PowerPoint</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>スライド作成（アニメーション付け可）</p>
-                            </div>
-                        </AccordionMenu>
-                        <AccordionMenu>
-                            <div slot="title">Certification</div>
-                            <div class="main__skillsList--content" slot="content">
-                                <p>ITパスポート(2020年8月取得)<br>Webクリエイター能力認定試験エキスパート(2021年3月取得)<br>基本情報技術者試験(2021年10月取得)<br>HTML5 プロフェッショナル認定試験レベル1(2023年10月取得)</p>
-                            </div>
-                        </AccordionMenu>
-                    </div>
-                </div>           
-            </div>
-        </transition> -->
+        </transition>
     </main>
 </template>
 
@@ -838,6 +840,7 @@ img{
         margin: 20px;
         padding: 5px 0 0;
         font-size: 12px;
+        text-align: justify;
         @include mq('max','md') {
         }
         @include mq('max','sm') {
