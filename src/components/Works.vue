@@ -32,7 +32,7 @@
             <div class="works__items">
               <ModalItem :modalItems="modalItems[7]" />
               <ModalItem :modalItems="modalItems[8]" />
-              <!-- <ModalItem :modalItems="modalItems[9]" /> -->
+              <ModalItem :modalItems="modalItems[9]" />
               <ModalItem :modalItems="modalItems[5]" />
               <ModalItem :modalItems="modalItems[6]" />
               </div>
