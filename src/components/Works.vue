@@ -30,9 +30,9 @@
               <h3>buisiness</h3>
               <p>業務で制作したサイトや広告をご紹介します。</p>
             <div class="works__items">
-              <ModalItem :modalItems="modalItems[7]" />
+              <!-- <ModalItem :modalItems="modalItems[7]" />
               <ModalItem :modalItems="modalItems[8]" />
-              <ModalItem :modalItems="modalItems[9]" />
+              <ModalItem :modalItems="modalItems[9]" /> -->
               <ModalItem :modalItems="modalItems[5]" />
               <ModalItem :modalItems="modalItems[6]" />
               </div>
@@ -117,24 +117,24 @@ export default {
           modalImage: require('@/assets/images/SUNDAI_main.png'),
           modalLink: "https://sundai-diverse.jp/",
         },
-        {
-          modalTitle: "マッシュスタイルラボ",
-          modalContent: "アパレルサイトのLP作成を担当しております。デザインに基づきピクセルパーフェクトに合わせた実装を行いました。動画の制御機能やstickyを用いた競り上がりは構造を丁寧に確認しながら実装を進めました。本LPは約31時間ほどで作成いたしました。",
-          modalImage: require('@/assets/images/emmi_main.png'),
-          modalLink: "https://emmi.jp/Page/feature/atelier/241226_ipsa/?plan=em241226IPSA&advc=em241226IPSA",
-        },
-        {
-          modalTitle: "マッシュスタイルラボ",
-          modalContent: "アパレルサイトのLP作成を担当しております。デザインに基づきピクセルパーフェクトに合わせた実装を行いました。SEO対策等も配慮しております。本LPは約15時間ほどで作成いたしました。",
-          modalImage: require('@/assets/images/furfur_main.jpg'),
-          modalLink: "https://furfurfur.jp/Page/issue/issue_241015/?plan=FU241015HEINZ",
-        },
-        {
-          modalTitle: "マッシュビューティラボ",
-          modalContent: "コスメブランドサイトのLP作成を担当いたしました。デザインに基づきピクセルパーフェクトに合わせた実装・gsapやripples等を用いたアニメーションの実装を行いました。本LPは約31時間ほどで作成いたしました。",
-          modalImage: require('@/assets/images/snidelbeauty_main.jpg'),
-          modalLink: "https://snidelbeauty.com/Page/Lp/SB_202503Skincareseries/?plan=SB250328_Skincareseries",
-        },
+        // {
+        //   modalTitle: "マッシュスタイルラボ",
+        //   modalContent: "アパレルサイトのLP作成を担当しております。デザインに基づきピクセルパーフェクトに合わせた実装を行いました。動画の制御機能やstickyを用いた競り上がりは構造を丁寧に確認しながら実装を進めました。本LPは約31時間ほどで作成いたしました。",
+        //   modalImage: require('@/assets/images/emmi_main.png'),
+        //   modalLink: "https://emmi.jp/Page/feature/atelier/241226_ipsa/?plan=em241226IPSA&advc=em241226IPSA",
+        // },
+        // {
+        //   modalTitle: "マッシュスタイルラボ",
+        //   modalContent: "アパレルサイトのLP作成を担当しております。デザインに基づきピクセルパーフェクトに合わせた実装を行いました。SEO対策等も配慮しております。本LPは約15時間ほどで作成いたしました。",
+        //   modalImage: require('@/assets/images/furfur_main.jpg'),
+        //   modalLink: "https://furfurfur.jp/Page/issue/issue_241015/?plan=FU241015HEINZ",
+        // },
+        // {
+        //   modalTitle: "マッシュビューティラボ",
+        //   modalContent: "コスメブランドサイトのLP作成を担当いたしました。デザインに基づきピクセルパーフェクトに合わせた実装・gsapやripples等を用いたアニメーションの実装を行いました。本LPは約31時間ほどで作成いたしました。",
+        //   modalImage: require('@/assets/images/snidelbeauty_main.jpg'),
+        //   modalLink: "https://snidelbeauty.com/Page/Lp/SB_202503Skincareseries/?plan=SB250328_Skincareseries",
+        // },
       ],
     }
   },
