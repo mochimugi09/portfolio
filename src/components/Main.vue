@@ -12,7 +12,6 @@
                 <img src="../assets/images/profile.png">
             </div>
             <div class="main__profileText">
-                <h3>Nao Shimojo</h3>
                 <p>
                     コーダーとして働く一児の母。
                     <br>大学卒業後、地元の公立こども園で保育士として働いたのち、結婚を機に退職。
